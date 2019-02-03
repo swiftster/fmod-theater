@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ColorPicker.cs" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="FMODMigrationUtil.cs" t="Include" />
+        </e>
+        <e p="EventController.cs" t="Include" />
+        <e p="Ext.cs" t="Include" />
+        <e p="FMODController.cs" t="Include" />
+        <e p="FmodEvent.cs" t="Include" />
+        <e p="FmodExamples.cs" t="Include" />
+        <e p="GoogleVR" t="Include">
+          <e p="Editor" t="Include">
+            <e p="FmodGvrAudioRoomEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Audio" t="Include">
+              <e p="FmodGvrAudio.cs" t="Include" />
+              <e p="FmodGvrAudioRoom.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="GUIController.cs" t="Include" />
+        <e p="MusicTrigger.cs" t="Include" />
+        <e p="OSC.cs" t="Include" />
+        <e p="OscController.cs" t="Include" />
+        <e p="panner2D.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="fmod" t="Include">
+              <e p="BankRefDrawer.cs" t="Include" />
+              <e p="CreateEventPopup.cs" t="Include" />
+              <e p="EditorBankRef.cs" t="Include" />
+              <e p="EditorEventRef.cs" t="Include" />
+              <e p="EditorParamRef.cs" t="Include" />
+              <e p="EditorUtils.cs" t="Include" />
+              <e p="EventBrowser.cs" t="Include" />
+              <e p="EventCache.cs" t="Include" />
+              <e p="EventManager.cs" t="Include" />
+              <e p="EventRefDrawer.cs" t="Include" />
+              <e p="FindAndReplace.cs" t="Include" />
+              <e p="LogViewer.cs" t="Include" />
+              <e p="MigrationUtil.cs" t="Include" />
+              <e p="ParamRefDrawer.cs" t="Include" />
+              <e p="SettingsEditor.cs" t="Include" />
+              <e p="StudioBankLoaderEditor.cs" t="Include" />
+              <e p="StudioEventEmitterEditor.cs" t="Include" />
+              <e p="StudioEventEmitterGizmoDrawer.cs" t="Include" />
+              <e p="StudioListenerEditor.cs" t="Include" />
+              <e p="StudioParameterTriggerEditor.cs" t="Include" />
+            </e>
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+          <e p="fmod" t="Include">
+            <e p="BankRefAttribute.cs" t="Include" />
+            <e p="EventRefAttribute.cs" t="Include" />
+            <e p="FMOD_Listener.cs" t="Include" />
+            <e p="FMOD_StudioEventEmitter.cs" t="Include" />
+            <e p="FMODAsset.cs" t="Include" />
+            <e p="OneshotList.cs" t="Include" />
+            <e p="ParamRef.cs" t="Include" />
+            <e p="RuntimeManager.cs" t="Include" />
+            <e p="RuntimeUtils.cs" t="Include" />
+            <e p="Settings.cs" t="Include" />
+            <e p="StudioBankLoader.cs" t="Include" />
+            <e p="StudioEventEmitter.cs" t="Include" />
+            <e p="StudioListener.cs" t="Include" />
+            <e p="StudioParameterTrigger.cs" t="Include" />
+            <e p="Wrapper" t="Include">
+              <e p="fmod.cs" t="Include" />
+              <e p="fmod_dsp.cs" t="Include" />
+              <e p="fmod_errors.cs" t="Include" />
+              <e p="fmod_studio.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ResonanceAudio" t="Include">
+          <e p="Editor" t="Include">
+            <e p="FmodResonanceAudioRoomEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="FmodResonanceAudio.cs" t="Include" />
+            <e p="FmodResonanceAudioRoom.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SetTimeline.cs" t="Include" />
+        <e p="SliderText.cs" t="Include" />
+        <e p="SpeakerCheck.cs" t="Include" />
+        <e p="Tools.cs" t="Include" />
+        <e p="ValueUpdate.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="WBDF.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_WBDF.200984096.00" t="ExcludeRecursive" />
+  </component>
+</project>

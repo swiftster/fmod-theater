@@ -1,0 +1,117 @@
+[LOG] System::create                           : Header version = 1.10.04. Current version = 1.10.04.
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] Manager::init                            : maxchannels = 1024 studioflags = 00000009 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=11004 (93853), maxchannels=1024, flags=0x00030000
+[LOG] OutputCoreAudio::enumerate               : Enumerating...
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (2ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (64ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Pro Tools Aggregate I/O".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "ACE Sound Effects".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Loopback Audio".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Multi-Output Device".
+[LOG] OutputCoreAudio::enumerate               : Done.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] DownMix::init                            : dspbuffersize: 512  rate: 48000. output speaker mode: 3, input speaker mode 7
+[LOG] DownMix::init                            : done.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x118805608 isAsync 1 updatePeriod 0.02
+[LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] LiveUpdate::init                         : 
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Profile::init                            : Profiler listening on port: 9264
+[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 7
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 701856
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 19296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700002ad27bc
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x14f82e993
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x14f82ea4f
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x14f82ea7f
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x14f82eb1c
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x13e7b9338
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='PoliceSiren_AP1.1066', format=2, channels=2, frequency=48000, lengthbytes=4192, lengthpcm=16220, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.895227.
+[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
+[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
+[LOG] LiveUpdate::clientConnected              : client = 0x11265d008
+[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0x11265d008
+[LOG] LiveUpdate::transitionToConnected        : 
+[LOG] Manager::sendConnectTimeHash             : 
+[LOG] LiveUpdate::sendBankHash                 : 
+[LOG] LiveUpdate::sendBankHash                 : 
+[LOG] LiveUpdate::sendBankHash                 : 
+[LOG] LiveUpdate::acceptInitPacket             : Client 0x11265d008 connected, entering connected state
+[LOG] SystemI::createSound                     : filename = /Users/sswift/Documents/Code/fmod-theater/4. FMOD Studio Project/fmod-theater/Build/Desktop/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x118303258 : node = 0x118303410
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14b637998.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x118303258
+[LOG] SystemI::createSoundInternal             :     Create name='/Users/sswift/Documents/Code/fmod-theater/4. FMOD Studio Project/fmod-theater/Build/Desktop/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 701856
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 19296
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x118303528
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='85dBCPink', format=2, channels=1, frequency=48000, lengthbytes=696832, lengthpcm=4003287, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.506703.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x118303258
+[LOG] SoundI::getSubSound                      : sound 0x118303258.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 85dBCPink (0x118303258)
+[LOG] SoundI::release                          :     85dBCPink (0x14b33f2e8)
+[LOG] SoundI::release                          :     85dBCPink (0x14b33f478)
+[LOG] SystemI::createSound                     : filename = /Users/sswift/Documents/Code/fmod-theater/4. FMOD Studio Project/fmod-theater/Build/Desktop/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13e302a78 : node = 0x11810e630
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14b637998.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e302a78
+[LOG] SystemI::createSoundInternal             :     Create name='/Users/sswift/Documents/Code/fmod-theater/4. FMOD Studio Project/fmod-theater/Build/Desktop/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 701856
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 19296
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11810e748
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='85dBCPink', format=2, channels=1, frequency=48000, lengthbytes=696832, lengthpcm=4003287, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.506703.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e302a78
+[LOG] SoundI::getSubSound                      : sound 0x13e302a78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 85dBCPink (0x13e302a78)
+[LOG] SoundI::release                          :     85dBCPink (0x10e38f828)
+[LOG] SoundI::release                          :     85dBCPink (0x10e390568)
+[LOG] SoundI::release                          :  (0x13e724b38)
+[LOG] SoundI::release                          :     PoliceSiren_AP1.1066 (0x150637dd8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] ProfileClient::markForDead               : Closing client connection
+[ERR] FMOD_OS_Net_Read                         : read failed with errno 9
+[ERR] ProfileClient::recvThreadLoopFunction    : Recv thread loop returned 43
+[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

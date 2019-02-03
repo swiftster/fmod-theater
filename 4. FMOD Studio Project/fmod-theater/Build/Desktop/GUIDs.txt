@@ -1,0 +1,6 @@
+{e5a27b96-0428-407b-834c-2c88a42d0690} event:/3dTest
+{6be5d07d-441a-4967-b1e8-19fe77c434bb} event:/Ambulance
+{f28ffe50-e0b5-44d8-85fd-21bcb62ea17d} event:/SpeakerCheck
+{be54bbae-0fdc-485d-aa17-bc59f0319c49} bus:/
+{facb1e5a-d2c1-463b-aefe-da8e758bb3e9} bus:/Reverb
+{401dc906-17ae-4a83-b837-8a313f215153} bank:/Master

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{00f3206e-ddd8-456c-9e87-8652f523dd13}">
+        <property name="assetPath">
+            <value>85dBCPink.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>83.401812500000005</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cf4c918c-b900-4833-ba4a-000cbdf81a42}</destination>
+        </relationship>
+    </object>
+</objects>

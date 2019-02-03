@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{6fd056a5-be6a-45df-8337-ff0916c9075a}">
+        <property name="name">
+            <value>LFE</value>
+        </property>
+        <relationship name="folder">
+            <destination>{096ae9ef-a6c9-44fa-9ac0-42cb46cbfc71}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9197d815-2ad9-4681-8716-840894b6f94e}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9197d815-2ad9-4681-8716-840894b6f94e}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
